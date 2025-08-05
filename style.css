@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, #FF6F00, #FF8F00); /* Gradient color */
+    background: linear-gradient(to right, #FF6F00, #FF8F00);
     padding: 25px 40px;
     border-bottom: 3px solid #e0e0e0;
 }
@@ -82,71 +82,4 @@ section {
 }
 
 section h2 {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-/* Add gradient line after each subtitle */
-section h2::after {
-    content: "";
-    position: absolute;
-    bottom: -5px; /* Position the line below the text */
-    left: 0;
-    width: 0%; /* Initially width is 0 */
-    height: 2px;
-    background: linear-gradient(135deg, #FF6F00, #FF8F00);
-    transition: width 0.5s ease-out; /* Add transition for width */
-}
-
-section h2:hover::after {
-    width: 100%; /* On hover, the line extends to full width */
-}
-
-/* Section Paragraphs */
-section p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #555;
-    margin: 10px 0;
-    text-align: justify; /* Justified text alignment */
-}
-
-/* Links in Content Sections */
-section a {
-    color: #ff6f00;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-section a:hover {
-    color: #d55f00;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    font-size: 14px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    border-top: 2px solid #e0e0e0;
-}
-
-/* Links in Footer */
-footer a {
-    color: #ff6f00;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-footer a:hover {
-    color: #d55f00;
-}
+    font
